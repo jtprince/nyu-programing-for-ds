@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "nyu-programing-for-ds"
+version = "0.1.0"
+description = ""
+authors = ["username <jtprince@gmail.com>"]
+readme = "README.md"
+packages = [{include = "nyu_programing_for_ds"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.3"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.12.0"
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
